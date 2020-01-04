@@ -3,3 +3,11 @@ addons:
   chrome: stable
 rvm:
   - 2.4.4
+script:
+  - "bundle exec rake knapsack_pro:rspec"
+env:
+  global:
+    - KNAPSACK_PRO_CI_NODE_TOTAL=2
+  matrix:
+    - KNAPSACK_PRO_CI_NODE_INDEX=0
+    - KNAPSACK_PRO_CI_NODE_INDEX=1

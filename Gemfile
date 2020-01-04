@@ -18,6 +18,7 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.8.0'
   gem 'factory_bot_rails', '~> 4.10.0'
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'knapsack_pro'
 end
 
 group :development do
@@ -40,7 +41,7 @@ group :test do
     git: 'https://github.com/thoughtbot/shoulda-matchers.git',
     branch: 'rails-5'
   gem 'vcr'
-  gem 'webmock'
+  gem 'webmock', require: false
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
