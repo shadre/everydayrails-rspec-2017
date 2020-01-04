@@ -1,5 +1,7 @@
 # *Everyday Rails Testing with RSpec* sample application (2017 edition)
 
+[![Knapsack Pro Parallel CI builds for Rspec specs](https://img.shields.io/badge/Knapsack%20Pro-Parallel%20/%20Rspec%20specs-%230074ff)](https://knapsackpro.com/dashboard/organizations/597/projects/737/test_suites/1099/builds)
+
 Refer to the [Everyday Rails] blog for news on this edition of the book. You
 can find sample source for earlier editions in the [everydayrails
 organization] on GitHub. Thanks!
